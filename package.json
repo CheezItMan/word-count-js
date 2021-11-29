@@ -1,0 +1,41 @@
+{
+  "name": "word-count",
+  "version": "1.0.0",
+  "description": "A Word Count TDD Exercise taken from exercism.io",
+  "main": "src/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CheezItMan/word-count-js.git"
+  },
+  "keywords": [
+    "tdd",
+    "javascript",
+    "js",
+    "jest"
+  ],
+  "author": "Chris McAnally",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CheezItMan/word-count-js/issues"
+  },
+  "homepage": "https://github.com/CheezItMan/word-count-js#readme",
+  "type": "module",
+  "dependencies": {
+    "jest": "^27.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.0",
+    "@babel/node": "^7.16.0",
+    "@babel/preset-env": "^7.16.0"
+  },
+  "resolutions": {
+    "@babel/preset-env": "7.13.8"
+  }
+}
