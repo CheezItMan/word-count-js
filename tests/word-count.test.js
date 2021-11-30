@@ -33,7 +33,7 @@ describe('wordCount', () => {
 
   test('works with the example from the README', () => {
     // Arrange
-    const sentence = `"That's the password: PASSWORD 123!", cried the Special Agent.\nSo I fled.`;
+    const sentence = `"That's the password: 'PASSWORD 123'!", cried the Special Agent.\nSo I fled.`;
 
     // Act
     const answer = wordCount(sentence);
