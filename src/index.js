@@ -1,5 +1,7 @@
 export const wordCount = (str) => {
-  str = str.replaceAll(/[^A-Za-z\d\'\s]/g, '');
+  str = str.replaceAll(/\'s/g, '˙©');
+  str = str.replaceAll(/[^\w\s©]/g, '');
+  str = str.replaceAll('©', "'s");
   const words = str.split(/\s/);
 
   const freqMap = {};
